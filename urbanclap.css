@@ -1,0 +1,426 @@
+@import url('../fonts/fontawesome/fontawesome-free-5.12.1-web/css/all.css');
+body{
+    background-color: #eee;
+    margin: 0;
+    padding: 0;
+    font-family: axiforma-regular,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+#headerBlock{
+    background: #ffffff;
+    padding: 10px;
+    height: 45px;
+    
+}
+.leftBlock{
+    width: 70%;
+    float: left;
+    
+}
+.rightBlock{
+    width: 30%;
+    float: left;
+    text-align: right;
+    line-height: 40px;
+    
+}
+#headerBlock article{
+    width: 1200px;
+    margin: 0 auto;
+}
+.logo img{
+    width: 290px;
+}
+.leftmenu ul, .rightBlock ul{/* it is called chainging we should chain like this if both are sharing simliar properties*/
+
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.leftmenu ul li a, .rightBlock ul li a{
+    color: #666;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: 600;
+}
+.leftmenu ul li{
+    display: inline-block;
+}.
+.logo{
+    width: 40%;
+    float: left;
+}
+.leftmenu{
+    width: 60%;
+    float: left;
+    line-height: 40px;
+}
+/*if we dosen't use chaing we can write like this at line29 we combined 
+.rightBlock ul{
+    list-style: none;
+}
+.rightBlock ul li a{     //at line37 also we chained one more which is having same properties//
+    color: #111;
+    text-decoration: none;
+}*/
+/*sliderBlock css starts*/
+#sliderBlock {
+    background: url(../images/image1.jpg);
+    height: 380px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+#sliderBlock article{
+    width:1000px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 70px 0;
+}
+#sliderBlock h1{
+    margin: 0;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+}
+#sliderBlock p{
+    font-size: 22px;
+    color: white;
+    font-weight: bold;
+}
+#sliderBlock form select{
+    padding: 15px;
+    width: 170px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px;
+}
+#sliderBlock form input{
+    padding: 15px;
+    width: 400px;
+    font-size: 18px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px;
+}
+.overlay{
+    background: rgba(77,77,77, 0.5);
+    height: 380px;
+}
+/*after slifer*/
+#afterslider {
+    background-color: #eee;
+  
+}
+#afterslider article {
+    width: 1200px;
+    margin: 0 auto;
+}
+#afterslider article div {
+    float: left;
+    width: 15%;
+    text-align: center;
+     padding: 36px 10px 0;
+     
+}
+#afterslider article div h2{
+    font-size: 15px;
+    color: #666;
+}
+#afterslider article div span i{
+    font-size: 40px;
+    color: #666;
+}
+#service{
+    background-color: #fff;
+    padding: 30px 0;
+    height: 270px;
+}
+#service article{
+    width: 1200px;
+    margin: 0 auto;
+}
+#service article div{
+    width: 24%;
+    float: left;
+    margin: 5px;
+    font-size: 14px;
+
+}
+
+#service article div img{
+    width: 100%;
+    height: 150px;
+    
+    border-radius: 10px;
+}
+#service article h2{
+    text-align: left;
+    clear: both;
+  /*  padding: 0 15px;*/
+}
+/*wedding section */
+#wedding article{
+    width: 1200px;
+    margin: 0 auto;
+   /* padding: 30px 0;*/   
+}
+#wedding article div{
+    width: 24%;
+    float: left;
+    margin: 5px;  
+}
+#wedding article div img{
+    width: 260px;
+    height: 150px;
+    border-radius: 10px;    
+}
+#wedding article h2{
+    text-align: left;
+    margin-top: 40px;
+    font-size: 20px;
+    clear: both;
+}
+
+/*fitness&yoga*/
+#fitnessyoga{
+    background-color: #fff;
+    height: 270px;
+    padding: 30px 0;
+    clear: both;
+}
+#fitnessyoga article{
+    width: 1200px;
+    margin: 0 auto;
+}
+#fitnessyoga article div{
+    width: 24%;
+    margin: 5px;
+    float: left;
+}
+#fitnessyoga article div img{
+    width: 260px;
+    height: 150px;
+    border-radius: 4px;
+}
+#fitnessyoga article h2{
+    font-weight: bolder;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #242424;
+}
+#fitnessyoga article div footer h3{
+    font-size: 15px;
+    color: #343434;
+    font-weight: 400px;
+    margin: 10px 0 0;
+}
+/*massage section*/
+#massage{
+    background-color: #fff;
+    height: 270px;
+    padding: 30px 0;
+    clear: both;
+}
+#massage article{
+    width: 1200px;
+    margin: 0 auto;
+}
+#massage article div{
+    width: 24%;
+    float: left;
+    margin: 5px;
+}
+#massage article div img{
+    width: 260;
+    height: 140px;
+    border-radius: 10px;
+}
+#massage article h2{
+    font-weight: bolder;
+    margin-top: 40px;
+    font-size: 20px;
+    color: #242424;
+}
+/*app section*/
+#appblock{
+    clear: both;
+    background-color: #fff;
+    
+}
+#appblock article{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 40px 0;
+    height: 300px;
+    background-color: #eee;
+}
+#appblock  article .appLeft{
+    width: 45%;
+    float: left;
+    text-align: center;   
+}
+#appblock article .appRight{
+    text-align: left;
+    width: 55%;
+    float: left;
+}
+.appLeft img {
+    width: 220px;
+
+}
+.appRight h1{
+    font-size: 30px;
+    padding: 5px 0;
+    margin: 40px 0 0;
+}
+.appRight p{
+    color: #666;
+}
+.appRight form select{
+    padding: 15px 25px;
+    border: none;
+}
+.appRight form input{
+    padding: 20px ;
+    width: 50%;
+    box-sizing: border-box;
+    margin: 0;
+    border: none;
+}
+.appRight form button{
+    background: black;
+    border-radius: 5px;
+    color: white;
+    padding: 13px 30px;
+    border:none;
+    position: absolute;
+    right: 230px;
+    top: 8px;
+}
+.appRight form{
+    position: relative;
+}
+/* app block ends */
+#tableSection{
+    clear: both;
+    padding: 70px;
+    padding-bottom: 200px;
+    height: 50px;
+    background-color: #fff;
+}
+.lg{
+    font-size: 40px;
+    float: left;
+    padding: 70px 5px;
+    border: none;   
+}
+.details{
+    float: left;
+    width: 25%;
+    padding: 20px;
+}
+.details h3,p{
+    padding: 2px;
+}
+.details h3{
+    font-size: 17px;
+    font-weight: 600;
+}
+.details p{
+    font-size: 14px;
+    color: #343434;
+    font-weight: 400;
+}
+/*customer section*/
+#Customer{
+    clear: both;
+    padding-top: 25px;
+    width: 100%;
+    text-align: center;
+    margin-left: 300px;
+}
+.hg{
+    float: left;
+    width: 20%;
+}
+span{
+    font-size: 60px;
+    padding: 4px;
+    font-weight: 400;
+}
+.values{
+    text-transform: uppercase;
+    color: #343434;
+}
+/*above footer starts here*/
+#abovefooter{
+    clear: both;
+    background-color: #424242;
+    color: #949494;
+    font-size: 14px;
+
+}
+#abovefooter article{
+    width: 1200px;
+    margin: 0 auto;
+    height: 150px;
+    padding: 20px 0px;
+
+}
+#abovefooter p{
+    color: #949494;
+    padding-right: 40px;
+    display: inline-block;
+     font-weight: 900;
+}
+#abovefooter h2{
+    color:#fff;
+    padding-left: 1px;
+    font-size: 16px;
+    padding-top: 15px;
+}
+/*BELOW FOOTTER STARTS HERE*/
+#belowfooter{
+    clear: both;
+    background-color: #111;
+    font-weight: 600;
+    padding: 20px 0px;
+}
+#belowfooter article{
+    width: 1200px;
+    margin: 0 auto;
+    height: 590px;
+    padding: 1px;
+
+
+}
+
+#belowfooter p{
+    color: #eee;
+    padding-left: 10px;
+    float: left;
+    font-size: 15px;
+    padding-top: 15px;
+}
+#belowfooter h2{
+    color: #f6f6f6;
+    font-size: 15px;
+    clear: both;
+    padding-left: 10px;
+}
+#belowfooter div{
+    color: #eee;
+    padding: 10px 10px;
+    font-size: 15px;
+}
+.country{
+    clear: both;
+
+}
+.country h3{
+    float: left;
+    padding-right: 300px;
+}
+
